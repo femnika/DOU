@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+div{
+    margin: 5px;
+    width: 250px;
+    height: 200px;
+    background-color: #9dc578ef;
+}
+.re{
+    background-color: red;
+}
+.bl{
+    background-color: blue;
+}
