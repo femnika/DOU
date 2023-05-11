@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin-top: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 70px;
+}
+body{
+    background-color: rgb(34, 34, 34);
+    color: rgb(211, 211, 211);
+}
+
+div.Box{
+    display: flex;
+    margin: 2px;
+}
+
+div.LeftPanel{
+    margin: 3px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(55, 55, 55);
+    width: 50%;
+    height: 600px;
+
+}
+div.RightPanel{
+    margin: 3px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(55, 55, 55);
+    width: 50%;
+    height: 600px;
+}
+
+div.MaxMin{
+    display: flex;
+    justify-content: space-between;
+}
+div.DivSmallCheckBox{
+    text-align: right;
+}
+input.smallCheckBox{
+    width: 200px;
+    height: 50px;
+    font-size: 50px;
+}
+input.Input{
+    width: 100%;
+    height: 70px;
+}
+
+div.Loop{
+    display: flex;
+    justify-content: space-between;
+}
+div.Parity{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.Output{
+    width: 98%;
+    height: 99%;
+    background-color: rgb(20, 20, 20);
+    margin: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    word-break: break-all;
+}
+
+div.Button{
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+}
+button{
+    color: white;
+    background-color: rgb(78, 78, 78);
+    height: 170px;
+    width: 100%;
+}
+input[type="checkbox"]{
+    width: 50px;
+    height: 50px;
+}
+
